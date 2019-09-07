@@ -4,31 +4,41 @@ body {
     margin: 0;
 }
 
-html {
-    box-sizing: border-box;
-  }
 a {
     color: rgb(255, 115, 0);
 }
 
-a:hover {
-    text-decoration: none;
-}
-
-h1, h2 {
+h1 {
+    font-size: 78px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 350;
   }
 
-h1 {
-    font-size: 78px;
-  }
-
 h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 350;
     font-size: 40px;
     margin-top: 0;
   }
-  .content-wrap {
+
+header {
+    background: rgb(85, 85, 85);
+    color: rgb(207, 207, 207);
+  }
+
+header h1, header h2 {
+      color: white;
+      margin: 0;
+  }
+
+footer {
+    background: rgb(85, 85, 85);
+    color: rgb(207, 207, 207);
+    padding-top: 10px;
+    text-align: center;
+  }
+
+.content-wrap {
     max-width: 950px;
     overflow: hidden;
     margin: 0 auto;
@@ -41,26 +51,13 @@ h2 {
     padding-right: 3%;
     min-height: 175px;
   }
+
 .column-wide {
     width: 62%;
     float: left;
     min-height: 175px;
   }
 
-header, footer {
-    background: rgb(85, 85, 85);
-    color: rgb(207, 207, 207);
-  }
-
-header h1, header h2 {
-      color: white;
-      margin: 0;
-  }
-
-footer {
-    padding-top: 10px;
-    text-align: center;
-  }
 .contact-info a {
     padding: 10px;
     display: inline-block;
